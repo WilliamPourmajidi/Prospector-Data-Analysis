@@ -1,0 +1,1635 @@
+[
+    {
+      "source": "pylint",
+      "code": "missing-function-docstring",
+      "location": {
+        "path": "index.py",
+        "module": "index",
+        "function": "blockify",
+        "line": 108,
+        "character": 0
+      },
+      "message": "Missing function or method docstring"
+    },
+    {
+      "source": "pylint",
+      "code": "too-many-locals",
+      "location": {
+        "path": "index.py",
+        "module": "index",
+        "function": "blockify",
+        "line": 108,
+        "character": 0
+      },
+      "message": "Too many local variables (28/15)"
+    },
+    {
+      "source": "pylint",
+      "code": "too-many-statements",
+      "location": {
+        "path": "index.py",
+        "module": "index",
+        "function": "blockify",
+        "line": 108,
+        "character": 0
+      },
+      "message": "Too many statements (436/60)"
+    },
+    {
+      "source": "mccabe",
+      "code": "MC0001",
+      "location": {
+        "path": "index.py",
+        "module": null,
+        "function": "blockify",
+        "line": 108,
+        "character": 0
+      },
+      "message": "blockify is too complex (57)"
+    },
+    {
+      "source": "pep8",
+      "code": "N816",
+      "location": {
+        "path": "index.py",
+        "module": null,
+        "function": null,
+        "line": 48,
+        "character": 2
+      },
+      "message": "variable 'push_to_IBMBC' in global scope should not be mixedCase"
+    },
+    {
+      "source": "pep8",
+      "code": "E501",
+      "location": {
+        "path": "index.py",
+        "module": null,
+        "function": null,
+        "line": 155,
+        "character": 160
+      },
+      "message": "line too long (164 > 159 characters)"
+    },
+    {
+      "source": "pep8",
+      "code": "E501",
+      "location": {
+        "path": "index.py",
+        "module": null,
+        "function": null,
+        "line": 210,
+        "character": 160
+      },
+      "message": "line too long (164 > 159 characters)"
+    },
+    {
+      "source": "pep8",
+      "code": "E501",
+      "location": {
+        "path": "index.py",
+        "module": null,
+        "function": null,
+        "line": 497,
+        "character": 160
+      },
+      "message": "line too long (164 > 159 characters)"
+    },
+    {
+      "source": "pep8",
+      "code": "E501",
+      "location": {
+        "path": "index.py",
+        "module": null,
+        "function": null,
+        "line": 1055,
+        "character": 160
+      },
+      "message": "line too long (164 > 159 characters)"
+    },
+    {
+      "source": "pyflakes",
+      "code": "F405",
+      "location": {
+        "path": "index.py",
+        "module": null,
+        "function": null,
+        "line": 41,
+        "character": 14
+      },
+      "message": "'json' may be undefined, or defined from star imports: LC"
+    },
+    {
+      "source": "pyflakes",
+      "code": "F405",
+      "location": {
+        "path": "index.py",
+        "module": null,
+        "function": null,
+        "line": 52,
+        "character": 9
+      },
+      "message": "'LogChain' may be undefined, or defined from star imports: LC"
+    },
+    {
+      "source": "pyflakes",
+      "code": "F405",
+      "location": {
+        "path": "index.py",
+        "module": null,
+        "function": null,
+        "line": 119,
+        "character": 34
+      },
+      "message": "'create_new_block' may be undefined, or defined from star imports: LC"
+    },
+    {
+      "source": "pyflakes",
+      "code": "F405",
+      "location": {
+        "path": "index.py",
+        "module": null,
+        "function": null,
+        "line": 125,
+        "character": 38
+      },
+      "message": "'json' may be undefined, or defined from star imports: LC"
+    },
+    {
+      "source": "pyflakes",
+      "code": "F405",
+      "location": {
+        "path": "index.py",
+        "module": null,
+        "function": null,
+        "line": 142,
+        "character": 21
+      },
+      "message": "'create_new_block' may be undefined, or defined from star imports: LC"
+    },
+    {
+      "source": "pyflakes",
+      "code": "F405",
+      "location": {
+        "path": "index.py",
+        "module": null,
+        "function": null,
+        "line": 148,
+        "character": 38
+      },
+      "message": "'json' may be undefined, or defined from star imports: LC"
+    },
+    {
+      "source": "pyflakes",
+      "code": "F405",
+      "location": {
+        "path": "index.py",
+        "module": null,
+        "function": null,
+        "line": 173,
+        "character": 34
+      },
+      "message": "'create_new_block' may be undefined, or defined from star imports: LC"
+    },
+    {
+      "source": "pyflakes",
+      "code": "F405",
+      "location": {
+        "path": "index.py",
+        "module": null,
+        "function": null,
+        "line": 180,
+        "character": 38
+      },
+      "message": "'json' may be undefined, or defined from star imports: LC"
+    },
+    {
+      "source": "pyflakes",
+      "code": "F405",
+      "location": {
+        "path": "index.py",
+        "module": null,
+        "function": null,
+        "line": 197,
+        "character": 21
+      },
+      "message": "'create_new_block' may be undefined, or defined from star imports: LC"
+    },
+    {
+      "source": "pyflakes",
+      "code": "F405",
+      "location": {
+        "path": "index.py",
+        "module": null,
+        "function": null,
+        "line": 203,
+        "character": 38
+      },
+      "message": "'json' may be undefined, or defined from star imports: LC"
+    },
+    {
+      "source": "pyflakes",
+      "code": "F405",
+      "location": {
+        "path": "index.py",
+        "module": null,
+        "function": null,
+        "line": 251,
+        "character": 27
+      },
+      "message": "'hashlib' may be undefined, or defined from star imports: LC"
+    },
+    {
+      "source": "pyflakes",
+      "code": "F405",
+      "location": {
+        "path": "index.py",
+        "module": null,
+        "function": null,
+        "line": 254,
+        "character": 23
+      },
+      "message": "'TB_data' may be undefined, or defined from star imports: LC"
+    },
+    {
+      "source": "pyflakes",
+      "code": "F405",
+      "location": {
+        "path": "index.py",
+        "module": null,
+        "function": null,
+        "line": 255,
+        "character": 29
+      },
+      "message": "'create_new_block' may be undefined, or defined from star imports: LC"
+    },
+    {
+      "source": "pyflakes",
+      "code": "F405",
+      "location": {
+        "path": "index.py",
+        "module": null,
+        "function": null,
+        "line": 258,
+        "character": 44
+      },
+      "message": "'stringify_terminalblock' may be undefined, or defined from star imports: LC"
+    },
+    {
+      "source": "pyflakes",
+      "code": "F405",
+      "location": {
+        "path": "index.py",
+        "module": null,
+        "function": null,
+        "line": 265,
+        "character": 38
+      },
+      "message": "'json' may be undefined, or defined from star imports: LC"
+    },
+    {
+      "source": "pyflakes",
+      "code": "F405",
+      "location": {
+        "path": "index.py",
+        "module": null,
+        "function": null,
+        "line": 266,
+        "character": 61
+      },
+      "message": "'stringify_terminalblock' may be undefined, or defined from star imports: LC"
+    },
+    {
+      "source": "pyflakes",
+      "code": "F405",
+      "location": {
+        "path": "index.py",
+        "module": null,
+        "function": null,
+        "line": 276,
+        "character": 26
+      },
+      "message": "'create_new_block' may be undefined, or defined from star imports: LC"
+    },
+    {
+      "source": "pyflakes",
+      "code": "F405",
+      "location": {
+        "path": "index.py",
+        "module": null,
+        "function": null,
+        "line": 283,
+        "character": 21
+      },
+      "message": "'json' may be undefined, or defined from star imports: LC"
+    },
+    {
+      "source": "pyflakes",
+      "code": "F405",
+      "location": {
+        "path": "index.py",
+        "module": null,
+        "function": null,
+        "line": 292,
+        "character": 44
+      },
+      "message": "'stringify_terminalblock' may be undefined, or defined from star imports: LC"
+    },
+    {
+      "source": "pyflakes",
+      "code": "F405",
+      "location": {
+        "path": "index.py",
+        "module": null,
+        "function": null,
+        "line": 294,
+        "character": 31
+      },
+      "message": "'create_new_block' may be undefined, or defined from star imports: LC"
+    },
+    {
+      "source": "pyflakes",
+      "code": "F405",
+      "location": {
+        "path": "index.py",
+        "module": null,
+        "function": null,
+        "line": 301,
+        "character": 21
+      },
+      "message": "'json' may be undefined, or defined from star imports: LC"
+    },
+    {
+      "source": "pyflakes",
+      "code": "F405",
+      "location": {
+        "path": "index.py",
+        "module": null,
+        "function": null,
+        "line": 315,
+        "character": 26
+      },
+      "message": "'json' may be undefined, or defined from star imports: LC"
+    },
+    {
+      "source": "pyflakes",
+      "code": "F405",
+      "location": {
+        "path": "index.py",
+        "module": null,
+        "function": null,
+        "line": 320,
+        "character": 42
+      },
+      "message": "'IBMBC_url' may be undefined, or defined from star imports: LC"
+    },
+    {
+      "source": "pyflakes",
+      "code": "F405",
+      "location": {
+        "path": "index.py",
+        "module": null,
+        "function": null,
+        "line": 320,
+        "character": 85
+      },
+      "message": "'IBMBC_start_block_id' may be undefined, or defined from star imports: LC"
+    },
+    {
+      "source": "pylint",
+      "code": "undefined-variable",
+      "location": {
+        "path": "index.py",
+        "module": "index",
+        "function": "blockify",
+        "line": 320,
+        "character": 41
+      },
+      "message": "Undefined variable 'IBMBC_url'"
+    },
+    {
+      "source": "pyflakes",
+      "code": "F405",
+      "location": {
+        "path": "index.py",
+        "module": null,
+        "function": null,
+        "line": 328,
+        "character": 23
+      },
+      "message": "'LC_Ethereum' may be undefined, or defined from star imports: LC"
+    },
+    {
+      "source": "pylint",
+      "code": "undefined-variable",
+      "location": {
+        "path": "index.py",
+        "module": "index",
+        "function": "blockify",
+        "line": 328,
+        "character": 22
+      },
+      "message": "Undefined variable 'LC_Ethereum'"
+    },
+    {
+      "source": "pyflakes",
+      "code": "F405",
+      "location": {
+        "path": "index.py",
+        "module": null,
+        "function": null,
+        "line": 356,
+        "character": 21
+      },
+      "message": "'stringify_terminalblock' may be undefined, or defined from star imports: LC"
+    },
+    {
+      "source": "pyflakes",
+      "code": "F405",
+      "location": {
+        "path": "index.py",
+        "module": null,
+        "function": null,
+        "line": 367,
+        "character": 44
+      },
+      "message": "'stringify_terminalblock' may be undefined, or defined from star imports: LC"
+    },
+    {
+      "source": "pyflakes",
+      "code": "F405",
+      "location": {
+        "path": "index.py",
+        "module": null,
+        "function": null,
+        "line": 370,
+        "character": 31
+      },
+      "message": "'create_new_block' may be undefined, or defined from star imports: LC"
+    },
+    {
+      "source": "pyflakes",
+      "code": "F405",
+      "location": {
+        "path": "index.py",
+        "module": null,
+        "function": null,
+        "line": 382,
+        "character": 26
+      },
+      "message": "'json' may be undefined, or defined from star imports: LC"
+    },
+    {
+      "source": "pyflakes",
+      "code": "F405",
+      "location": {
+        "path": "index.py",
+        "module": null,
+        "function": null,
+        "line": 387,
+        "character": 42
+      },
+      "message": "'IBMBC_url' may be undefined, or defined from star imports: LC"
+    },
+    {
+      "source": "pyflakes",
+      "code": "F405",
+      "location": {
+        "path": "index.py",
+        "module": null,
+        "function": null,
+        "line": 387,
+        "character": 85
+      },
+      "message": "'IBMBC_start_block_id' may be undefined, or defined from star imports: LC"
+    },
+    {
+      "source": "pylint",
+      "code": "undefined-variable",
+      "location": {
+        "path": "index.py",
+        "module": "index",
+        "function": "blockify",
+        "line": 387,
+        "character": 41
+      },
+      "message": "Undefined variable 'IBMBC_url'"
+    },
+    {
+      "source": "pyflakes",
+      "code": "F405",
+      "location": {
+        "path": "index.py",
+        "module": null,
+        "function": null,
+        "line": 396,
+        "character": 23
+      },
+      "message": "'LC_Ethereum' may be undefined, or defined from star imports: LC"
+    },
+    {
+      "source": "pylint",
+      "code": "undefined-variable",
+      "location": {
+        "path": "index.py",
+        "module": "index",
+        "function": "blockify",
+        "line": 396,
+        "character": 22
+      },
+      "message": "Undefined variable 'LC_Ethereum'"
+    },
+    {
+      "source": "pyflakes",
+      "code": "F405",
+      "location": {
+        "path": "index.py",
+        "module": null,
+        "function": null,
+        "line": 419,
+        "character": 21
+      },
+      "message": "'json' may be undefined, or defined from star imports: LC"
+    },
+    {
+      "source": "pyflakes",
+      "code": "F405",
+      "location": {
+        "path": "index.py",
+        "module": null,
+        "function": null,
+        "line": 427,
+        "character": 21
+      },
+      "message": "'stringify_terminalblock' may be undefined, or defined from star imports: LC"
+    },
+    {
+      "source": "pyflakes",
+      "code": "F405",
+      "location": {
+        "path": "index.py",
+        "module": null,
+        "function": null,
+        "line": 458,
+        "character": 34
+      },
+      "message": "'create_new_block' may be undefined, or defined from star imports: LC"
+    },
+    {
+      "source": "pyflakes",
+      "code": "F405",
+      "location": {
+        "path": "index.py",
+        "module": null,
+        "function": null,
+        "line": 464,
+        "character": 38
+      },
+      "message": "'json' may be undefined, or defined from star imports: LC"
+    },
+    {
+      "source": "pyflakes",
+      "code": "F405",
+      "location": {
+        "path": "index.py",
+        "module": null,
+        "function": null,
+        "line": 485,
+        "character": 21
+      },
+      "message": "'create_new_block' may be undefined, or defined from star imports: LC"
+    },
+    {
+      "source": "pyflakes",
+      "code": "F405",
+      "location": {
+        "path": "index.py",
+        "module": null,
+        "function": null,
+        "line": 490,
+        "character": 38
+      },
+      "message": "'json' may be undefined, or defined from star imports: LC"
+    },
+    {
+      "source": "pyflakes",
+      "code": "F405",
+      "location": {
+        "path": "index.py",
+        "module": null,
+        "function": null,
+        "line": 536,
+        "character": 27
+      },
+      "message": "'hashlib' may be undefined, or defined from star imports: LC"
+    },
+    {
+      "source": "pyflakes",
+      "code": "F405",
+      "location": {
+        "path": "index.py",
+        "module": null,
+        "function": null,
+        "line": 539,
+        "character": 23
+      },
+      "message": "'TB_data' may be undefined, or defined from star imports: LC"
+    },
+    {
+      "source": "pyflakes",
+      "code": "F405",
+      "location": {
+        "path": "index.py",
+        "module": null,
+        "function": null,
+        "line": 540,
+        "character": 29
+      },
+      "message": "'create_new_block' may be undefined, or defined from star imports: LC"
+    },
+    {
+      "source": "pyflakes",
+      "code": "F405",
+      "location": {
+        "path": "index.py",
+        "module": null,
+        "function": null,
+        "line": 543,
+        "character": 44
+      },
+      "message": "'stringify_terminalblock' may be undefined, or defined from star imports: LC"
+    },
+    {
+      "source": "pyflakes",
+      "code": "F405",
+      "location": {
+        "path": "index.py",
+        "module": null,
+        "function": null,
+        "line": 550,
+        "character": 38
+      },
+      "message": "'json' may be undefined, or defined from star imports: LC"
+    },
+    {
+      "source": "pyflakes",
+      "code": "F405",
+      "location": {
+        "path": "index.py",
+        "module": null,
+        "function": null,
+        "line": 551,
+        "character": 61
+      },
+      "message": "'stringify_terminalblock' may be undefined, or defined from star imports: LC"
+    },
+    {
+      "source": "pyflakes",
+      "code": "F405",
+      "location": {
+        "path": "index.py",
+        "module": null,
+        "function": null,
+        "line": 561,
+        "character": 26
+      },
+      "message": "'create_new_block' may be undefined, or defined from star imports: LC"
+    },
+    {
+      "source": "pyflakes",
+      "code": "F405",
+      "location": {
+        "path": "index.py",
+        "module": null,
+        "function": null,
+        "line": 568,
+        "character": 21
+      },
+      "message": "'json' may be undefined, or defined from star imports: LC"
+    },
+    {
+      "source": "pyflakes",
+      "code": "F405",
+      "location": {
+        "path": "index.py",
+        "module": null,
+        "function": null,
+        "line": 577,
+        "character": 44
+      },
+      "message": "'stringify_terminalblock' may be undefined, or defined from star imports: LC"
+    },
+    {
+      "source": "pyflakes",
+      "code": "F405",
+      "location": {
+        "path": "index.py",
+        "module": null,
+        "function": null,
+        "line": 579,
+        "character": 31
+      },
+      "message": "'create_new_block' may be undefined, or defined from star imports: LC"
+    },
+    {
+      "source": "pyflakes",
+      "code": "F405",
+      "location": {
+        "path": "index.py",
+        "module": null,
+        "function": null,
+        "line": 586,
+        "character": 21
+      },
+      "message": "'json' may be undefined, or defined from star imports: LC"
+    },
+    {
+      "source": "pyflakes",
+      "code": "F405",
+      "location": {
+        "path": "index.py",
+        "module": null,
+        "function": null,
+        "line": 599,
+        "character": 26
+      },
+      "message": "'json' may be undefined, or defined from star imports: LC"
+    },
+    {
+      "source": "pyflakes",
+      "code": "F405",
+      "location": {
+        "path": "index.py",
+        "module": null,
+        "function": null,
+        "line": 604,
+        "character": 42
+      },
+      "message": "'IBMBC_url' may be undefined, or defined from star imports: LC"
+    },
+    {
+      "source": "pyflakes",
+      "code": "F405",
+      "location": {
+        "path": "index.py",
+        "module": null,
+        "function": null,
+        "line": 604,
+        "character": 85
+      },
+      "message": "'IBMBC_start_block_id' may be undefined, or defined from star imports: LC"
+    },
+    {
+      "source": "pylint",
+      "code": "undefined-variable",
+      "location": {
+        "path": "index.py",
+        "module": "index",
+        "function": "blockify",
+        "line": 604,
+        "character": 41
+      },
+      "message": "Undefined variable 'IBMBC_url'"
+    },
+    {
+      "source": "pyflakes",
+      "code": "F405",
+      "location": {
+        "path": "index.py",
+        "module": null,
+        "function": null,
+        "line": 613,
+        "character": 23
+      },
+      "message": "'LC_Ethereum' may be undefined, or defined from star imports: LC"
+    },
+    {
+      "source": "pylint",
+      "code": "undefined-variable",
+      "location": {
+        "path": "index.py",
+        "module": "index",
+        "function": "blockify",
+        "line": 613,
+        "character": 22
+      },
+      "message": "Undefined variable 'LC_Ethereum'"
+    },
+    {
+      "source": "pyflakes",
+      "code": "F405",
+      "location": {
+        "path": "index.py",
+        "module": null,
+        "function": null,
+        "line": 641,
+        "character": 21
+      },
+      "message": "'stringify_terminalblock' may be undefined, or defined from star imports: LC"
+    },
+    {
+      "source": "pyflakes",
+      "code": "F405",
+      "location": {
+        "path": "index.py",
+        "module": null,
+        "function": null,
+        "line": 652,
+        "character": 44
+      },
+      "message": "'stringify_terminalblock' may be undefined, or defined from star imports: LC"
+    },
+    {
+      "source": "pyflakes",
+      "code": "F405",
+      "location": {
+        "path": "index.py",
+        "module": null,
+        "function": null,
+        "line": 655,
+        "character": 31
+      },
+      "message": "'create_new_block' may be undefined, or defined from star imports: LC"
+    },
+    {
+      "source": "pyflakes",
+      "code": "F405",
+      "location": {
+        "path": "index.py",
+        "module": null,
+        "function": null,
+        "line": 667,
+        "character": 26
+      },
+      "message": "'json' may be undefined, or defined from star imports: LC"
+    },
+    {
+      "source": "pyflakes",
+      "code": "F405",
+      "location": {
+        "path": "index.py",
+        "module": null,
+        "function": null,
+        "line": 672,
+        "character": 42
+      },
+      "message": "'IBMBC_url' may be undefined, or defined from star imports: LC"
+    },
+    {
+      "source": "pyflakes",
+      "code": "F405",
+      "location": {
+        "path": "index.py",
+        "module": null,
+        "function": null,
+        "line": 672,
+        "character": 85
+      },
+      "message": "'IBMBC_start_block_id' may be undefined, or defined from star imports: LC"
+    },
+    {
+      "source": "pylint",
+      "code": "undefined-variable",
+      "location": {
+        "path": "index.py",
+        "module": "index",
+        "function": "blockify",
+        "line": 672,
+        "character": 41
+      },
+      "message": "Undefined variable 'IBMBC_url'"
+    },
+    {
+      "source": "pyflakes",
+      "code": "F405",
+      "location": {
+        "path": "index.py",
+        "module": null,
+        "function": null,
+        "line": 682,
+        "character": 23
+      },
+      "message": "'LC_Ethereum' may be undefined, or defined from star imports: LC"
+    },
+    {
+      "source": "pylint",
+      "code": "undefined-variable",
+      "location": {
+        "path": "index.py",
+        "module": "index",
+        "function": "blockify",
+        "line": 682,
+        "character": 22
+      },
+      "message": "Undefined variable 'LC_Ethereum'"
+    },
+    {
+      "source": "pyflakes",
+      "code": "F405",
+      "location": {
+        "path": "index.py",
+        "module": null,
+        "function": null,
+        "line": 705,
+        "character": 21
+      },
+      "message": "'json' may be undefined, or defined from star imports: LC"
+    },
+    {
+      "source": "pyflakes",
+      "code": "F405",
+      "location": {
+        "path": "index.py",
+        "module": null,
+        "function": null,
+        "line": 713,
+        "character": 21
+      },
+      "message": "'stringify_terminalblock' may be undefined, or defined from star imports: LC"
+    },
+    {
+      "source": "pyflakes",
+      "code": "F405",
+      "location": {
+        "path": "index.py",
+        "module": null,
+        "function": null,
+        "line": 731,
+        "character": 21
+      },
+      "message": "'create_new_block' may be undefined, or defined from star imports: LC"
+    },
+    {
+      "source": "pyflakes",
+      "code": "F405",
+      "location": {
+        "path": "index.py",
+        "module": null,
+        "function": null,
+        "line": 736,
+        "character": 38
+      },
+      "message": "'json' may be undefined, or defined from star imports: LC"
+    },
+    {
+      "source": "pyflakes",
+      "code": "F405",
+      "location": {
+        "path": "index.py",
+        "module": null,
+        "function": null,
+        "line": 766,
+        "character": 21
+      },
+      "message": "'create_new_block' may be undefined, or defined from star imports: LC"
+    },
+    {
+      "source": "pyflakes",
+      "code": "F405",
+      "location": {
+        "path": "index.py",
+        "module": null,
+        "function": null,
+        "line": 771,
+        "character": 38
+      },
+      "message": "'json' may be undefined, or defined from star imports: LC"
+    },
+    {
+      "source": "pyflakes",
+      "code": "F405",
+      "location": {
+        "path": "index.py",
+        "module": null,
+        "function": null,
+        "line": 810,
+        "character": 27
+      },
+      "message": "'hashlib' may be undefined, or defined from star imports: LC"
+    },
+    {
+      "source": "pyflakes",
+      "code": "F405",
+      "location": {
+        "path": "index.py",
+        "module": null,
+        "function": null,
+        "line": 813,
+        "character": 23
+      },
+      "message": "'TB_data' may be undefined, or defined from star imports: LC"
+    },
+    {
+      "source": "pyflakes",
+      "code": "F405",
+      "location": {
+        "path": "index.py",
+        "module": null,
+        "function": null,
+        "line": 814,
+        "character": 29
+      },
+      "message": "'create_new_block' may be undefined, or defined from star imports: LC"
+    },
+    {
+      "source": "pyflakes",
+      "code": "F405",
+      "location": {
+        "path": "index.py",
+        "module": null,
+        "function": null,
+        "line": 817,
+        "character": 44
+      },
+      "message": "'stringify_terminalblock' may be undefined, or defined from star imports: LC"
+    },
+    {
+      "source": "pyflakes",
+      "code": "F405",
+      "location": {
+        "path": "index.py",
+        "module": null,
+        "function": null,
+        "line": 824,
+        "character": 38
+      },
+      "message": "'json' may be undefined, or defined from star imports: LC"
+    },
+    {
+      "source": "pyflakes",
+      "code": "F405",
+      "location": {
+        "path": "index.py",
+        "module": null,
+        "function": null,
+        "line": 825,
+        "character": 61
+      },
+      "message": "'stringify_terminalblock' may be undefined, or defined from star imports: LC"
+    },
+    {
+      "source": "pyflakes",
+      "code": "F405",
+      "location": {
+        "path": "index.py",
+        "module": null,
+        "function": null,
+        "line": 835,
+        "character": 26
+      },
+      "message": "'create_new_block' may be undefined, or defined from star imports: LC"
+    },
+    {
+      "source": "pyflakes",
+      "code": "F405",
+      "location": {
+        "path": "index.py",
+        "module": null,
+        "function": null,
+        "line": 842,
+        "character": 21
+      },
+      "message": "'json' may be undefined, or defined from star imports: LC"
+    },
+    {
+      "source": "pyflakes",
+      "code": "F405",
+      "location": {
+        "path": "index.py",
+        "module": null,
+        "function": null,
+        "line": 851,
+        "character": 44
+      },
+      "message": "'stringify_terminalblock' may be undefined, or defined from star imports: LC"
+    },
+    {
+      "source": "pyflakes",
+      "code": "F405",
+      "location": {
+        "path": "index.py",
+        "module": null,
+        "function": null,
+        "line": 853,
+        "character": 31
+      },
+      "message": "'create_new_block' may be undefined, or defined from star imports: LC"
+    },
+    {
+      "source": "pyflakes",
+      "code": "F405",
+      "location": {
+        "path": "index.py",
+        "module": null,
+        "function": null,
+        "line": 860,
+        "character": 21
+      },
+      "message": "'json' may be undefined, or defined from star imports: LC"
+    },
+    {
+      "source": "pyflakes",
+      "code": "F405",
+      "location": {
+        "path": "index.py",
+        "module": null,
+        "function": null,
+        "line": 874,
+        "character": 26
+      },
+      "message": "'json' may be undefined, or defined from star imports: LC"
+    },
+    {
+      "source": "pyflakes",
+      "code": "F405",
+      "location": {
+        "path": "index.py",
+        "module": null,
+        "function": null,
+        "line": 879,
+        "character": 42
+      },
+      "message": "'IBMBC_url' may be undefined, or defined from star imports: LC"
+    },
+    {
+      "source": "pyflakes",
+      "code": "F405",
+      "location": {
+        "path": "index.py",
+        "module": null,
+        "function": null,
+        "line": 879,
+        "character": 85
+      },
+      "message": "'IBMBC_start_block_id' may be undefined, or defined from star imports: LC"
+    },
+    {
+      "source": "pylint",
+      "code": "undefined-variable",
+      "location": {
+        "path": "index.py",
+        "module": "index",
+        "function": "blockify",
+        "line": 879,
+        "character": 41
+      },
+      "message": "Undefined variable 'IBMBC_url'"
+    },
+    {
+      "source": "pyflakes",
+      "code": "F405",
+      "location": {
+        "path": "index.py",
+        "module": null,
+        "function": null,
+        "line": 888,
+        "character": 23
+      },
+      "message": "'LC_Ethereum' may be undefined, or defined from star imports: LC"
+    },
+    {
+      "source": "pylint",
+      "code": "undefined-variable",
+      "location": {
+        "path": "index.py",
+        "module": "index",
+        "function": "blockify",
+        "line": 888,
+        "character": 22
+      },
+      "message": "Undefined variable 'LC_Ethereum'"
+    },
+    {
+      "source": "pyflakes",
+      "code": "F405",
+      "location": {
+        "path": "index.py",
+        "module": null,
+        "function": null,
+        "line": 916,
+        "character": 21
+      },
+      "message": "'stringify_terminalblock' may be undefined, or defined from star imports: LC"
+    },
+    {
+      "source": "pyflakes",
+      "code": "F405",
+      "location": {
+        "path": "index.py",
+        "module": null,
+        "function": null,
+        "line": 927,
+        "character": 44
+      },
+      "message": "'stringify_terminalblock' may be undefined, or defined from star imports: LC"
+    },
+    {
+      "source": "pyflakes",
+      "code": "F405",
+      "location": {
+        "path": "index.py",
+        "module": null,
+        "function": null,
+        "line": 930,
+        "character": 31
+      },
+      "message": "'create_new_block' may be undefined, or defined from star imports: LC"
+    },
+    {
+      "source": "pyflakes",
+      "code": "F841",
+      "location": {
+        "path": "index.py",
+        "module": null,
+        "function": null,
+        "line": 937,
+        "character": 17
+      },
+      "message": "local variable 'to_be_submitted_to_IBMBC' is assigned to but never used"
+    },
+    {
+      "source": "pyflakes",
+      "code": "F405",
+      "location": {
+        "path": "index.py",
+        "module": null,
+        "function": null,
+        "line": 941,
+        "character": 26
+      },
+      "message": "'json' may be undefined, or defined from star imports: LC"
+    },
+    {
+      "source": "pyflakes",
+      "code": "F405",
+      "location": {
+        "path": "index.py",
+        "module": null,
+        "function": null,
+        "line": 946,
+        "character": 42
+      },
+      "message": "'IBMBC_url' may be undefined, or defined from star imports: LC"
+    },
+    {
+      "source": "pyflakes",
+      "code": "F405",
+      "location": {
+        "path": "index.py",
+        "module": null,
+        "function": null,
+        "line": 946,
+        "character": 85
+      },
+      "message": "'IBMBC_start_block_id' may be undefined, or defined from star imports: LC"
+    },
+    {
+      "source": "pylint",
+      "code": "undefined-variable",
+      "location": {
+        "path": "index.py",
+        "module": "index",
+        "function": "blockify",
+        "line": 946,
+        "character": 41
+      },
+      "message": "Undefined variable 'IBMBC_url'"
+    },
+    {
+      "source": "pyflakes",
+      "code": "F405",
+      "location": {
+        "path": "index.py",
+        "module": null,
+        "function": null,
+        "line": 956,
+        "character": 23
+      },
+      "message": "'LC_Ethereum' may be undefined, or defined from star imports: LC"
+    },
+    {
+      "source": "pylint",
+      "code": "undefined-variable",
+      "location": {
+        "path": "index.py",
+        "module": "index",
+        "function": "blockify",
+        "line": 956,
+        "character": 22
+      },
+      "message": "Undefined variable 'LC_Ethereum'"
+    },
+    {
+      "source": "pyflakes",
+      "code": "F405",
+      "location": {
+        "path": "index.py",
+        "module": null,
+        "function": null,
+        "line": 979,
+        "character": 21
+      },
+      "message": "'json' may be undefined, or defined from star imports: LC"
+    },
+    {
+      "source": "pyflakes",
+      "code": "F405",
+      "location": {
+        "path": "index.py",
+        "module": null,
+        "function": null,
+        "line": 987,
+        "character": 21
+      },
+      "message": "'stringify_terminalblock' may be undefined, or defined from star imports: LC"
+    },
+    {
+      "source": "pyflakes",
+      "code": "F405",
+      "location": {
+        "path": "index.py",
+        "module": null,
+        "function": null,
+        "line": 1017,
+        "character": 34
+      },
+      "message": "'create_new_block' may be undefined, or defined from star imports: LC"
+    },
+    {
+      "source": "pyflakes",
+      "code": "F405",
+      "location": {
+        "path": "index.py",
+        "module": null,
+        "function": null,
+        "line": 1022,
+        "character": 38
+      },
+      "message": "'json' may be undefined, or defined from star imports: LC"
+    },
+    {
+      "source": "pyflakes",
+      "code": "F405",
+      "location": {
+        "path": "index.py",
+        "module": null,
+        "function": null,
+        "line": 1043,
+        "character": 21
+      },
+      "message": "'create_new_block' may be undefined, or defined from star imports: LC"
+    },
+    {
+      "source": "pyflakes",
+      "code": "F405",
+      "location": {
+        "path": "index.py",
+        "module": null,
+        "function": null,
+        "line": 1048,
+        "character": 38
+      },
+      "message": "'json' may be undefined, or defined from star imports: LC"
+    },
+    {
+      "source": "pyflakes",
+      "code": "F405",
+      "location": {
+        "path": "index.py",
+        "module": null,
+        "function": null,
+        "line": 1114,
+        "character": 21
+      },
+      "message": "'stringify_terminalblock' may be undefined, or defined from star imports: LC"
+    },
+    {
+      "source": "pylint",
+      "code": "missing-module-docstring",
+      "location": {
+        "path": "index.py",
+        "module": "index",
+        "function": null,
+        "line": 1,
+        "character": 0
+      },
+      "message": "Missing module docstring"
+    },
+    {
+      "source": "pylint",
+      "code": "unused-wildcard-import",
+      "location": {
+        "path": "index.py",
+        "module": "index",
+        "function": null,
+        "line": 8,
+        "character": 0
+      },
+      "message": "Unused imports from wildcard import: datetime, csv, Index, CircledBlockchain, SuperBlockchain, date, difficulty_target, genesis_hash, max_number_of_data_blocks_in_circledblockchain, LCaaS_timer, Block, TimeKeeper"
+    },
+    {
+      "source": "pylint",
+      "code": "wrong-import-position",
+      "location": {
+        "path": "index.py",
+        "module": "index",
+        "function": null,
+        "line": 8,
+        "character": 0
+      },
+      "message": "Import \"from LC import *\" should be placed at the top of the module"
+    },
+    {
+      "source": "pylint",
+      "code": "wrong-import-position",
+      "location": {
+        "path": "index.py",
+        "module": "index",
+        "function": null,
+        "line": 9,
+        "character": 0
+      },
+      "message": "Import \"from flask import Flask, request\" should be placed at the top of the module"
+    },
+    {
+      "source": "pylint",
+      "code": "import-error",
+      "location": {
+        "path": "index.py",
+        "module": "index",
+        "function": null,
+        "line": 10,
+        "character": 0
+      },
+      "message": "Unable to import 'pyrebase'"
+    },
+    {
+      "source": "pylint",
+      "code": "wrong-import-position",
+      "location": {
+        "path": "index.py",
+        "module": "index",
+        "function": null,
+        "line": 10,
+        "character": 0
+      },
+      "message": "Import \"import pyrebase\" should be placed at the top of the module"
+    },
+    {
+      "source": "pylint",
+      "code": "wrong-import-position",
+      "location": {
+        "path": "index.py",
+        "module": "index",
+        "function": null,
+        "line": 11,
+        "character": 0
+      },
+      "message": "Import \"import requests\" should be placed at the top of the module"
+    },
+    {
+      "source": "pylint",
+      "code": "missing-function-docstring",
+      "location": {
+        "path": "index.py",
+        "module": "index",
+        "function": "displayStatus",
+        "line": 56,
+        "character": 0
+      },
+      "message": "Missing function or method docstring"
+    },
+    {
+      "source": "pylint",
+      "code": "missing-function-docstring",
+      "location": {
+        "path": "index.py",
+        "module": "index",
+        "function": "submit_raw",
+        "line": 61,
+        "character": 0
+      },
+      "message": "Missing function or method docstring"
+    },
+    {
+      "source": "pylint",
+      "code": "missing-function-docstring",
+      "location": {
+        "path": "index.py",
+        "module": "index",
+        "function": "submit_digest",
+        "line": 70,
+        "character": 0
+      },
+      "message": "Missing function or method docstring"
+    },
+    {
+      "source": "pylint",
+      "code": "no-else-return",
+      "location": {
+        "path": "index.py",
+        "module": "index",
+        "function": "submit_digest",
+        "line": 76,
+        "character": 4
+      },
+      "message": "Unnecessary \"else\" after \"return\""
+    },
+    {
+      "source": "pylint",
+      "code": "missing-function-docstring",
+      "location": {
+        "path": "index.py",
+        "module": "index",
+        "function": "verify_raw",
+        "line": 86,
+        "character": 0
+      },
+      "message": "Missing function or method docstring"
+    },
+    {
+      "source": "pylint",
+      "code": "missing-function-docstring",
+      "location": {
+        "path": "index.py",
+        "module": "index",
+        "function": "verify_digest",
+        "line": 94,
+        "character": 0
+      },
+      "message": "Missing function or method docstring"
+    },
+    {
+      "source": "pylint",
+      "code": "missing-function-docstring",
+      "location": {
+        "path": "index.py",
+        "module": "index",
+        "function": "verify_tb",
+        "line": 101,
+        "character": 0
+      },
+      "message": "Missing function or method docstring"
+    },
+    {
+      "source": "pylint",
+      "code": "unused-variable",
+      "location": {
+        "path": "index.py",
+        "module": "index",
+        "function": "blockify",
+        "line": 311,
+        "character": 16
+      },
+      "message": "Unused variable 'to_be_submitted_to_IBMBC'"
+    },
+    {
+      "source": "pylint",
+      "code": "missing-function-docstring",
+      "location": {
+        "path": "index.py",
+        "module": "index",
+        "function": "search_b",
+        "line": 1065,
+        "character": 0
+      },
+      "message": "Missing function or method docstring"
+    },
+    {
+      "source": "pylint",
+      "code": "missing-function-docstring",
+      "location": {
+        "path": "index.py",
+        "module": "index",
+        "function": "search_tb",
+        "line": 1095,
+        "character": 0
+      },
+      "message": "Missing function or method docstring"
+    },
+    {
+      "source": "pylint",
+      "code": "unreachable",
+      "location": {
+        "path": "index.py",
+        "module": "index",
+        "function": "search_tb",
+        "line": 1120,
+        "character": 16
+      },
+      "message": "Unreachable code"
+    },
+    {
+      "source": "pep257",
+      "code": "D104",
+      "location": {
+        "path": "__init__.py",
+        "module": null,
+        "function": null,
+        "line": 1,
+        "character": 0
+      },
+      "message": "Missing docstring in public package"
+    }
+]
+
